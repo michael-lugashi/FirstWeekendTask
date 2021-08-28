@@ -21,7 +21,7 @@ main header {
   text-align: center;
 }
 p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: justify;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -79,6 +79,12 @@ a:hover {
 
 #bottomBorder {
   border-bottom: solid rgb(35, 83, 29);
+}
+img{
+    display: block;
+    height: 10rem;
+    width: 20rem;
+    margin: auto;
 }
 footer {
   margin-top: 8vh;
