@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://www.desktopbackground.org/p/2012/05/25/395132_5944-jpg_720x960_h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+nav {
+  position: fixed;
+  height: 100vh;
+  background-color: rgba(35, 83, 29, 0.6);
+  width: 20vw;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+#main-doc {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 60vw;
+  margin-left: 30%;
+ 
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+a {
+  font-size: 2.5vmax;
+  color: rgb(35, 83, 29);
+  text-decoration: none;
+}
+#navbar li {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: solid rgb(35, 83, 29);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.8vmax;
+}
+nav header {
+  color: white;
+  font-size: 3.2vmax;
+  text-align: center;
+  border: solid;
+}
+#bottomBorder {
+  border-bottom: solid rgb(35, 83, 29);
+}
