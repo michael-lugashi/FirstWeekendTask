@@ -13,6 +13,32 @@ body {
   width: 60vw;
   margin-left: 30%;
 }
+main header {
+  padding-top: 3vh;
+  color: rgba(35, 83, 29, 0.7);
+  font-size: 4rem;
+  text-decoration: underline 0.175rem;
+  text-align: center;
+}
+p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-indent: 3vw;
+}
+ol {
+  font-size: 1.3rem;
+  margin-left: 7vw;
+  padding-left: 0;
+}
+div {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: rgba(245, 245, 245, 0.3);
+  font-size: 1.7vw;
+}
+
 nav {
   position: fixed;
   height: 100vh;
@@ -54,6 +80,10 @@ a:hover {
 #bottomBorder {
   border-bottom: solid rgb(35, 83, 29);
 }
+footer {
+  margin-top: 8vh;
+  text-align: center;
+}
 
 @media (orientation: portrait) {
   #main-doc {
@@ -62,5 +92,8 @@ a:hover {
   }
   nav header {
     font-size: 3vmin;
+  }
+  div {
+    font-size: 2.4vw;
   }
 }
